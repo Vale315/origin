@@ -1,3 +1,4 @@
 Name: IronHacker Vale 123
 Age: 35
 Favourite Color: pink
+Favourite Animal: Rat
