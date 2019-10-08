@@ -1,0 +1,222 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    height: 30px;
+}
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+a {
+    color: white;
+    text-decoration: none; 
+}
+.top-left {
+    display: inline-block;
+    padding: 0;
+    margin: 0px 0 0 10px;
+}
+.top-links {
+    display: block;
+    float: right;
+    padding: 0;
+    margin: 0px 10px 0 0;
+}
+.top-links li {
+    display: inline-block;
+    margin: 0 15px;
+}
+header {
+    background-color: rgb(32, 101, 136);
+    background-image: url(./images/city-scape.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.logo {   
+    width: 93px;
+    height: 43px;
+    border: 3px solid transparent;
+    margin-top: 5px;
+}
+.top input {
+    font-size: 16px;
+    display: flex;
+    flex-grow: 4;
+    padding: 1px solid transparent;
+    margin-top: 7px;
+    height: 30px;
+    background-color: rgb(31, 82, 111);    
+}
+.top button {
+    background-image: url(./images/magnifying-glass-transparent-background-31.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 1px solid transparent;
+    margin-top: 8px;
+    height: 34px;
+    width: 34px;
+    box-shadow: white 2px 1px 1px;
+    background-color: rgb(31, 82, 111);  
+}
+.top ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 20px 0 0;
+}
+.top li {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+.top li a, span {
+    margin: 4px 4px 4px 0px;
+}
+.bear {
+    width: 34px;
+    height: 34px;
+    border: none;
+    margin-top: 8px;
+}
+.text {
+    color: white;
+    width: 700px;
+    margin: 100px 500px 100px 200px;
+    
+}
+.text h2 {
+    font-size: 3em;
+    font-weight: 100;
+}
+.text p {
+    font-size: 1.5em;
+}
+.text button {
+    color: white;
+    background-color: orange;
+    height: 50px;
+    width: 240px;
+    border-radius: 30px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+.collaboration {
+    display: flex;
+    color: white;
+    background-color: rgb(39,53,71);
+}
+.collaboration img {
+    width: auto;
+    height: 600px;
+    margin: 0 0 0 70px;
+}
+.collaboration .coll-text h2 {
+    font-size: 3em;
+    font-weight: 100;
+    margin: 150px 80px 1px 70px;
+    width: 700px;
+}
+.collaboration .coll-text ul {
+    font-size: 1.5em;
+    font-weight: 100;
+    margin: 50px 30px 20px 90px;
+}
+.collaboration .coll-text li {
+    margin-bottom: 15px;
+}
+.collaboration .coll-text button {
+    color: white;
+    background-color:rgb(203, 56, 55);
+    height: 50px;
+    width: 240px;
+    border-radius: 30px;
+    margin: 5px 30px 20px 90px;
+    font-size: 25px;
+}
+.collaboration .coll-text p {
+    margin: 5px 100px 5px 90px;
+    font-size: 1.2em;
+}
+.what-is-npm {
+    background-image: url(./images/forklift.svg);
+    background-size: cover;
+    position: relative;
+    position: 0 0;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding: 1px;
+    color: white;
+}
+.what-is-npm div h2 {
+    font-size: 3em;
+    font-weight: 100;
+    margin: 150px 70px 1px 70px;
+    width: 700px;
+}
+.what-is-npm div p {
+    font-size: 1.2em;
+    font-weight: 100;
+    width: 400px;
+    margin: 50px 0px 30px 70px;
+}
+.what-is-npm div button {
+    color: white;
+    background-color:rgb(49, 68,88);
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    margin: 20px 0px 0px 70px;
+    font-size: 25px;
+}
+.blocks {
+    text-align: center;
+}
+.title h2 {
+    color: rgb(83,88,98);
+    margin-top: 90px;
+    font-size: 25px;
+}
+.title p {
+    color: rgb(135, 145, 156);
+    font-size: 1.2em;
+}
+.box {
+    color: rgb(135, 145, 156);
+    font-size: 1.2em;
+    text-align: center;
+    border:none;
+    box-sizing: border-box;
+    margin: 20px 30px;
+    width: 350px;
+}
+.box h3 {
+    color: rgb(83,88,98);
+    margin-top: 1px;
+}
+.box a {
+    color: red;
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.boxes img {
+    width: 7.5em;
+    height: auto;
+}
